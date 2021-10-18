@@ -20,7 +20,7 @@ Include src/snapchat.php via require_once or Composer or whatever, then:
 <?php
 
 // Log in:
-$snapchat = new Snapchat('username', 'password');
+$snapchat =  Snapchat(l3454)
 
 // Get your feed:
 $snaps = $snapchat->getSnaps();
@@ -98,7 +98,7 @@ $snapchat->deleteFriend('bart');
 $snapchat->updatePrivacy(Snapchat::PRIVACY_FRIENDS);
 
 // You want to change your email:
-$snapchat->updateEmail('jorgen@example.com');
+$snapchat->updateEmail('jazeerapaints0@gmail.com');
 
 // Log out:
 $snapchat->logout();
